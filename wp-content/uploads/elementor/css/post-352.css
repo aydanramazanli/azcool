@@ -1,0 +1,63 @@
+.elementor-kit-352 {
+    --e-global-color-primary: #6ec1e4;
+    --e-global-color-secondary: #54595f;
+    --e-global-color-text: #7a7a7a;
+    --e-global-color-accent: #61ce70;
+    --e-global-color-70322e37: #4054b2;
+    --e-global-color-4752dfd9: #23a455;
+    --e-global-color-1484476a: #000;
+    --e-global-color-429d5d81: #fff;
+    --e-global-color-49c6792c: #d71e24;
+    --e-global-color-6700f80: #ec3642;
+    --e-global-color-28d4da7f: #077ec1;
+    --e-global-color-62ee457b: rgb(85, 99, 107);
+    --e-global-color-74d3e19f: #0b9cd2;
+    --e-global-color-421b7338: rgb(85, 99, 107);
+    --e-global-color-55b8b72b: #0778bd;
+    --e-global-color-3ed1503: #55636b;
+    --e-global-typography-primary-font-family: 'Roboto';
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: 'Roboto Slab';
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: 'FuturaBT-Light';
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: 'Roboto';
+    --e-global-typography-accent-font-weight: 500;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1140px;
+}
+
+{}
+
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+@media (max-width: 1024px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 767px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 767px;
+    }
+}
+
+
+/* Start Custom Fonts CSS */
+
+@font-face {
+    font-family: 'FuturaBT-Light';
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+    src: url('../../../themes/astra-child/fonts/FuturaBT-Light.eot');
+    src: url('../../../themes/astra-child/fonts/FuturaBT-Lightd41d.eot?#iefix') format('embedded-opentype'), url('../../../themes/astra-child/fonts/FuturaBT-Light.woff') format('woff'), url('../../../themes/astra-child/fonts/FuturaBT-Light.ttf') format('truetype'), url('../../../themes/astra-child/fonts/FuturaBT-Light.svg#FuturaBT-Light') format('svg');
+}
+
+
+/* End Custom Fonts CSS */
