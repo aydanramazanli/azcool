@@ -4252,7 +4252,7 @@ body.elementor-editor-active .elementor-posts--show-thumbnail .elementor-post__t
 .elementor--h-position-center .swiper-slide-inner {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 body.rtl .elementor-widget-slides .elementor-swiper-button-next {

@@ -51,7 +51,7 @@ h1.entry-title {
 /* Start Custom Fonts CSS */
 
 @font-face {
-    font-family: 'FuturaBT-Light';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-display: auto;

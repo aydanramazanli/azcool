@@ -1,7 +1,7 @@
 /*! elementor-icons - v5.12.0 - 18-07-2021 */
 
 @font-face {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     src: url(../fonts/eicons02d6.eot?5.12.0);
     src: url(../fonts/eicons02d6.eot?5.12.0#iefix) format('embedded-opentype'), url(../fonts/eicons02d6.woff2?5.12.0) format('woff2'), url(../fonts/eicons02d6.woff?5.12.0) format('woff'), url(../fonts/eicons02d6.ttf?5.12.0) format('truetype'), url(../fonts/eicons02d6.svg?5.12.0#eicon) format('svg');
     font-weight: 400;
@@ -11,7 +11,7 @@
 [class*=' eicon-'],
 [class^='eicon'] {
     display: inline-block;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     font-size: inherit;
     font-weight: 400;
     font-style: normal;

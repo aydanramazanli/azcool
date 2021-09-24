@@ -59,7 +59,7 @@
 }
 
 .dialog-type-lightbox .dialog-buttons-wrapper>.dialog-button {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     width: 50%;
     border: none;
     background: none;
@@ -198,7 +198,7 @@
 }
 
 .elementor-templates-modal .dialog-widget-content {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     background-color: #f1f3f5;
     width: 100%;
 }
@@ -661,7 +661,7 @@
 }
 
 .elementor-custom-embed-play.elementor-playing i {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     -webkit-animation: fa-spin 2s linear infinite;
     animation: fa-spin 2s linear infinite;
 }
@@ -860,7 +860,7 @@
 
 #wpadminbar #wp-admin-bar-elementor_edit_page>.ab-item:before {
     content: '\e813';
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     top: 3px;
     font-size: 18px;
 }
@@ -1831,7 +1831,7 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
 [class*=' eicon-'],
 [class^='eicon'] {
     display: inline-block;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     font-size: inherit;
     font-weight: 400;
     font-style: normal;
@@ -1995,32 +1995,32 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
 
 .elementor-field-group .elementor-field-textual::-webkit-input-placeholder {
     color: inherit;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     opacity: 0.6;
 }
 
 .elementor-field-group .elementor-field-textual:-ms-input-placeholder {
     color: inherit;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     opacity: 0.6;
 }
 
 .elementor-field-group .elementor-field-textual:-moz-placeholder,
 .elementor-field-group .elementor-field-textual::-moz-placeholder {
     color: inherit;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     opacity: 0.6;
 }
 
 .elementor-field-group .elementor-field-textual::-ms-input-placeholder {
     color: inherit;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     opacity: 0.6;
 }
 
 .elementor-field-group .elementor-field-textual::placeholder {
     color: inherit;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     opacity: 0.6;
 }
 
@@ -2038,7 +2038,7 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
     -moz-appearance: none;
     color: inherit;
     font-size: inherit;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     font-weight: inherit;
     font-style: inherit;
     text-transform: inherit;
@@ -2051,7 +2051,7 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
 
 .elementor-field-group .elementor-select-wrapper:before {
     content: '\e92a';
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
     position: absolute;
     top: 50%;
@@ -2346,7 +2346,7 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
 .elementor-message:before {
     content: '\e90e';
     display: inline-block;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-style: normal;
     vertical-align: middle;
@@ -2717,7 +2717,7 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
 
 .elementor-slick-slider .slick-loading .slick-list:after {
     content: '\e8fb';
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -2772,7 +2772,7 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
 
 .elementor-slick-slider .slick-next:before,
 .elementor-slick-slider .slick-prev:before {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     font-size: 35px;
     line-height: 1;
     opacity: 0.75;
@@ -2866,7 +2866,7 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
 }
 
 .elementor-slick-slider ul.slick-dots li button:before {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     font-size: 6px;
     line-height: 20px;
     position: absolute;
@@ -5540,7 +5540,7 @@ body.elementor-page .elementor-widget-menu-anchor {
 
 .elementor-star-rating {
     color: #ccd6df;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     display: inline-block;
 }
 
@@ -5555,7 +5555,7 @@ body.elementor-page .elementor-widget-menu-anchor {
     content: '\e934';
     display: block;
     font-size: inherit;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     position: absolute;
     overflow: hidden;
     color: #f0ad4e;
@@ -5694,7 +5694,7 @@ body.elementor-page .elementor-widget-menu-anchor {
 }
 
 .elementor--star-style-star_unicode .elementor-star-rating {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
 }
 
 .elementor--star-style-star_unicode .elementor-star-rating i:not(.elementor-star-empty):before {
