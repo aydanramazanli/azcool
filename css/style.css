@@ -171,6 +171,15 @@ img {
     .logo {
         width: 90%;
     }
+    #footer {
+        padding: 1rem !important;
+    }
+    .mini-margin {
+        margin-bottom: 10px !important;
+    }
+    .social-icons ul {
+        padding: 20px 0 !important;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1500px) {
@@ -395,8 +404,9 @@ img {
 
 .service-item {
     background: var(--white);
-    border: 10px solid var(--lightblue);
+    /* border: 10px solid var(--lightblue); */
     padding: 20px 30px;
+    border-radius: 5%;
 }
 
 .service-img {
@@ -435,6 +445,7 @@ img {
     background: var(--white);
     border: 10px solid var(--yellow);
     padding: 20px 30px;
+    border-radius: 5%;
 }
 
 .offers-content {
@@ -485,12 +496,12 @@ img {
     .offers-item {
         padding: 10px 5px;
     }
-    .service-item {
+    /* .service-item {
         border: 5px solid var(--lightblue);
     }
     .offers-item {
         border: 5px solid var(--yellow);
-    }
+    } */
     .service-title,
     .offers-title {
         width: 200px;
@@ -518,16 +529,26 @@ img {
         grid-template-columns: repeat(1, 1fr) !important;
     }
     .footer-logo {
-        width: 250px !important;
+        width: 180px !important;
     }
     .footer-info ul li h3 {
-        margin-left: 38px;
+        margin-left: 10px;
         text-align: left;
     }
     .footer-info ul li {
         width: 100% !important;
     }
     .footer-info ul h2 {
+        width: 100%;
+        font-size: 26px;
+    }
+    .footer-icons i {
+        font-size: 20px !important;
+    }
+    .footer-info ul li i {
+        font-size: 25px !important;
+    }
+    .social-icons ul {
         width: 100%;
     }
 }
@@ -693,9 +714,10 @@ img {
 
 .social-icons ul {
     display: flex;
-    width: 250px;
+    width: 150px;
     padding: 50px 0;
     margin: auto;
+    justify-content: space-evenly;
 }
 
 .footer-icons i {

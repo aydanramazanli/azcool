@@ -1,7 +1,6 @@
 const miniBar = document.querySelector('.mini-navbar')
 const miniBarClose = document.querySelector('.mini-navbar-close')
-const listItem = document.querySelectorAll('.list-item')
-
+const list = document.querySelectorAll('.list')
 const open = document.querySelector('.fa-bars')
 const close = document.querySelector('.fa-times')
 
@@ -16,6 +15,8 @@ close.addEventListener('click', function() {
     open.classList.remove('none')
 })
 
-listItem.addEventListener('click', function() {
-    listItem.classList.add('active')
+miniBarClose.addEventListener('click', function() {
+    miniBarClose.classList.add('none')
+    open.classList.remove('none')
+    close.classList.add('none')
 })
