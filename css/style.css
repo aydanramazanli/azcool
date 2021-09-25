@@ -259,17 +259,23 @@ img {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.mini-navbar-close {
+.mini-navbar-close:hover {
+    transition: all 0.6;
+    visibility: visible;
+}
+
+
+/* .mini-navbar-close {
     padding: 1rem;
     width: 100%;
     z-index: 2;
     background: #667db6;
-    /* fallback for old browsers */
+
     background: -webkit-linear-gradient( to right, #667db6, #0082c8, #0082c8, #667db6);
-    /* Chrome 10-25, Safari 5.1-6 */
+ 
     background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+  
+} */
 
 .fa-bars,
 .fa-times {
@@ -517,6 +523,9 @@ img {
     .footer-info ul li {
         width: 100% !important;
     }
+    .footer-info ul h2 {
+        width: 100%;
+    }
 }
 
 @media (min-width: 700px) and (max-width: 1024px) {
@@ -568,6 +577,9 @@ img {
     .footer-info ul li h3 {
         margin-left: 38px;
         text-align: left;
+    }
+    .footer-info ul h2 {
+        width: 100%;
     }
 }
 
@@ -625,7 +637,8 @@ img {
 }
 
 .footer-info h2 {
-    text-align: center;
+    width: 40%;
+    text-align: start;
     color: var(--white);
     font-size: 38px;
     margin-bottom: 35px;
