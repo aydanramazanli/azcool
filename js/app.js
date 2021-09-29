@@ -3,6 +3,9 @@ const miniBarClose = document.querySelector('.mini-navbar-close')
 const list = document.querySelectorAll('.list')
 const open = document.querySelector('.fa-bars')
 const close = document.querySelector('.fa-times')
+const listDesktop = document.querySelectorAll('.list-item')
+const nav = document.querySelector('.nav-list')
+const link = document.querySelectorAll('link')
 
 open.addEventListener('click', function() {
     open.classList.add('none')

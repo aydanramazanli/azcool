@@ -217,7 +217,7 @@ img {
 /* for desktop */
 
 .nav-list {
-    width: 45%;
+    width: 57%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -227,6 +227,10 @@ img {
 .list-item {
     text-align: center;
     line-height: 4rem;
+}
+
+.list-item:active {
+    background: var(--yellow);
 }
 
 .list-item:hover {
@@ -384,12 +388,12 @@ img {
     padding: 10px;
     margin: auto;
     width: 350px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 .service-title h1,
 .offers-title h1 {
-    font-size: 40px;
+    font-size: 33px;
 }
 
 .service-content {
@@ -438,7 +442,7 @@ img {
     padding: 10px;
     margin: auto;
     width: 350px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 .offers-item {
