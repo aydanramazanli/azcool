@@ -409,7 +409,7 @@ img {
 .service-item {
     background: var(--white);
     /* border: 10px solid var(--lightblue); */
-    padding: 20px 30px;
+    padding: 20px 25px;
     border-radius: 5%;
 }
 
